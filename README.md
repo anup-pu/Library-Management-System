@@ -1,1 +1,9 @@
-# Library-Management-System
+The Library Management System is a full-stack web application designed to efficiently manage library resources. Built using Spring Boot for the backend, React.js for the frontend, and MySQL as the database, this system allows users to perform essential book management operations such as adding, updating, deleting, and viewing book records. The frontend is styled using Material-UI and includes smooth animations powered by Framer Motion, enhancing the user experience.
+
+The system enables users to add new books by providing details such as the title, author, and availability status. It also offers a search functionality that allows users to find books by their ID or title. Users can update book details whenever necessary and delete books that are no longer needed. The application is designed with a RESTful API, ensuring seamless communication between the frontend and backend.
+
+To set up the project, users need to clone the repository and configure the backend by updating the application.properties file with their MySQL credentials. The Spring Boot application can be started using Maven, while the React frontend requires Node.js and npm for dependency installation and execution. API testing can be done using Postman, and all the API endpoints are structured to handle CRUD operations efficiently.
+
+The tech stack includes React.js, Material-UI, Axios, and Framer Motion for the frontend, while the backend is powered by Spring Boot and Spring Data JPA. MySQL is used for database storage, ensuring efficient handling of book records. The project is open-source, allowing developers to contribute and enhance the system further. The source code is available on GitHub, and contributors are encouraged to fork the repository and submit pull requests with improvements.![Screenshot (9)](https://github.com/user-attachments/assets/cc844072-3abb-4912-8c23-5c182252b71b)
+![Screenshot (7)](https://github.com/user-attachments/assets/efc28d53-2d77-45e4-a934-8fa51e917283)
+![Screenshot (8)](https://github.com/user-attachments/assets/5ed5c128-09d8-4164-bdf2-db4c7871f0b4)
